@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 125vh   ;
+    background-color:aliceblue;
+    display: flex;
+    justify-content: center;
+    border: 10px solid #1d1e4c; 
+}
+.image{
+    height: 240px;
+    width: 200px;
+    background-image: url(A._P._J._Abdul_Kalam.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 120px;
+    left: 160px;
+    border-radius: 15%;
+    border: 2px solid black; 
+}
+.name{
+    position: absolute;
+    top: 270px;
+    right: 200px;
+    font-size: 30px;
+    text-align: right;  
+}
+.content{
+    position: absolute;
+    width: 900px;
+    top: 390px;
+    left: 160px;
+    font-size: 30px;
+}
+.brief{
+    font-size: 20px;
+    text-align: justify;
+}
+.biography{
+    width: 915px;
+    position: absolute;
+    top: 680px;
+    left: 160px;
+    font-size: 20px;
+}
+.link{
+    position: absolute;
+    right: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+.heading{
+    position: absolute;
+    top: 25px;
+    font-size: 50px;
+}
